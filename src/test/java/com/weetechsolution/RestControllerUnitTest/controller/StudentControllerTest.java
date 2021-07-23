@@ -33,7 +33,7 @@ public class StudentControllerTest {
     private MockMvc mockMvc;
 
     @Autowired
-    ObjectMapper mapper;
+    private ObjectMapper mapper;
 
     @MockBean
     private StudentService studentService;
